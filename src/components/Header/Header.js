@@ -6,7 +6,7 @@ const Header = () => {
     <div className="width=[100%] flex align-center">
       <label className="swap swap-rotate">
         {/* this hidden checkbox controls the state */}
-        <input type="checkbox" className="theme-controller" value="light" />
+        <input type="checkbox" className="theme-controller" value="dim" />
 
         {/* sun icon */}
         <svg
