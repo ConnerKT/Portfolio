@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Kosugi Maru', 'sans-serif'],
+      },
       keyframes: {
         'border-spin': {
           '100%': {
@@ -19,7 +22,7 @@ module.exports = {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["light", "dark"],
+    themes: ["retro", "dim"],
   },
 }
 
